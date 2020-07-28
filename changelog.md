@@ -1,81 +1,46 @@
 # Base Change Log
 
-## [4.1.3] - 2018-12-11
-### Base V4.1.3
-- Minor documentation update
-- Minor version bump for index.scss/less and package.json
+## [5.2.0] - 2020-05-10
+### Base V5.2.0
+- Updated index.scss/less to include all modules for index.css (use core.css for minimal Base)
+- Updated readme and styleguide references
+- Minor version bump for package.json
+- Updated entrypoint from index.css to core.css within package.json
 
-## [4.1.2] - 2018-12-11
-### Base V4.1.2
-- Minor documentation update
-- Minor version bump for index.scss/less and package.json
+## [5.1.1] - 2020-05-08
+### Base V5.1.1
+- Corrected documentation
+- Minor version bump for package.json
 
-## [4.1.1] - 2018-12-11
-### Base V4.1.1
-- Updated entry in package.json
-- Minor version bump for index.scss/less and package.json
+## [5.1.0] - 2020-05-08
+### Base V5.1.0
+- Added Base LESS
+- Updated package.json and version bump
 
-## [4.1.0] - 2018-12-10
-### Base V4.1.0
-- Removed gulp and replaced with webpack
-- Updated scripts in package.json
-- Minor documentation fixes
-- Version bump for index.scss/less and package.json
+## [5.0.4] - 2020-05-07
+### Base V5.0.4
+- Added missing horizontal spacers for large and extra large devices
+- Minor version bump for package.json
 
-## [4.0.10] - 2018-05-17
-### Base V4.0.10
-- Added Postinstall script to fix normalize.css import issue
-- Minor version bump for index.scss/less and package.json
+## [5.0.3] - 2020-05-01
+### Base V5.0.3
+- Updating readme examples
+- Minor version bump for index.scss and package.json
 
-## [4.0.9] - 2018-04-24
-### Base V4.0.9
-- Updated name of animation mixin to animate
-- Minor version bump for index.scss/less and package.json
+## [5.0.2] - 2020-05-01
+### Base V5.0.2
+- Updating readme examples
+- Minor version bump for index.scss and package.json
 
-## [4.0.8] - 2018-04-22
-### Base V4.0.8
-- Fixed bug with background-alpha mixin in mixins.scss
-- Minor version bump for index.scss/less and package.json
+## [5.0.1] - 2020-05-01
+### Base V5.0.1
+- Updating readme and links
+- Minor version bump for index.scss and package.json
 
-## [4.0.7] - 2018-04-19
-### Base V4.0.7
-- Minor tweaks to readme
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.6] - 2018-04-17
-### Base V4.0.6
-- Minor tweaks to readme
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.5] - 2018-04-13
-### Base V4.0.5
-- Minor tweaks to readme
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.4] - 2018-04-13
-### Base V4.0.4
-- Minor tweaks to readme
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.3] - 2018-04-11
-### Base V4.0.3
-- Minor tweaks to readme
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.2] - 2018-04-11
-### Base V4.0.2
-- Added screen reader helper (`.sr`) to core and updated docs
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.1] - 2018-04-08
-### Base V4.0.1
-- Minor correction on the breakpoint variables
-- Minor version bump for index.scss/less and package.json
-
-## [4.0.0] - 2018-04-06
-### Base V4.0.0
-- Removed all modules from Base and moved them into independent modules / packages (review readme for more information)
-- Updated Base to use latest version of Normalize.css
-- Updated Mixins and Variables
-- Removed support for bower (R.I.P)
-- Major version bump for index.scss/less and package.json
+## [5.0.0] - 2020-05-01
+### Base V5.0.0
+- Updated build tool from Webpack to Gulp 4
+- Added styleguide for documentation and demoing styles
+- Consolidated all modules back into central repo of Base
+- Updated Mixins and naming conventions
+- Major version bump for index.scss and package.json
